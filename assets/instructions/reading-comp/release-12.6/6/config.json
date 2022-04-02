@@ -1,0 +1,2211 @@
+{
+  "app": {
+    "name": "reading-comp"
+  },
+  "newBottomBar": true,
+  "globalAssets": [
+    {
+      "name": "sweater_school_rg",
+      "src": "./fonts/sweater_school_rg.json",
+      "type": "font"
+    }
+  ],
+  "paths": {
+    "root": "",
+    "content": "/instruction/content",
+    "demo": "/instruction/content/reading-comp/demo"
+  },
+  "preload": {
+    "maxRetries": 2,
+    "retryInterval": 500
+  },
+  "scoring": {
+    "algorithm": "STRAIGHT_AVERAGE"
+  },
+  "defaults": {
+    "module": "RCLearningComponent"
+  },
+  "state": {
+    "warnAtOverallSize": 100000,
+    "warnAtPassageSize": 20000
+  },
+  "rc_ffw_t1_s1": {
+    "id": "rc_ffw_t1_s1",
+    "type": "style",
+    "dataCapture": {
+      "enabled": true
+    },
+    "sfx": [
+      {
+        "type": "audio",
+        "parts": [
+          {
+            "src": "${content}/shared/global/audio/sfx/orb_out_book.mp3"
+          },
+          {
+            "src": "${content}/shared/global/audio/sfx/orb_out_short.mp3"
+          },
+          {
+            "src": "${content}/shared/global/audio/sfx/orb_out.mp3"
+          }
+        ]
+      },
+      {
+        "type": "audio",
+        "parts": [
+          {
+            "src": "${content}/shared/global/audio/sfx/intro.mp3"
+          },
+          {
+            "src": "${content}/shared/global/audio/sfx/panning.mp3"
+          }
+        ]
+      }
+    ]
+  },
+  "mc_t22_s1": {
+    "id": "mc_t22_s1",
+    "type": "style",
+    "dataCapture": {
+      "enabled": true
+    },
+    "sfx": [
+      {
+        "type": "audio",
+        "parts": [
+          {
+            "src": "${content}/shared/global/audio/500ms_no_sound.mp3"
+          }
+        ]
+      },
+      {
+        "type": "audio",
+        "parts": [
+          {
+            "src": "${content}/shared/global/audio/sfx/popon.mp3"
+          }
+        ]
+      },
+      {
+        "type": "audio",
+        "parts": [
+          {
+            "src": "${content}/shared/global/audio/sfx/plop_1.mp3"
+          }
+        ]
+      },
+      {
+        "type": "audio",
+        "parts": [
+          {
+            "src": "${content}/shared/global/audio/sfx/click.mp3"
+          }
+        ]
+      },
+      {
+        "type": "audio",
+        "parts": [
+          {
+            "src": "${content}/shared/global/audio/sfx/correct_milder.mp3"
+          }
+        ]
+      },
+      {
+        "type": "audio",
+        "parts": [
+          {
+            "src": "${content}/shared/global/audio/sfx/incorrect_milder.mp3"
+          }
+        ]
+      },
+      {
+        "type": "audio",
+        "parts": [
+          {
+            "src": "${content}/shared/global/audio/sfx/reward.mp3"
+          }
+        ]
+      },
+      {
+        "type": "audio",
+        "parts": [
+          {
+            "src": "${content}/shared/global/audio/sfx/reward_2.mp3"
+          }
+        ]
+      },
+      {
+        "type": "audio",
+        "parts": [
+          {
+            "src": "${content}/shared/global/audio/sfx/twinkle_short.mp3"
+          }
+        ]
+      },
+      {
+        "type": "audio",
+        "parts": [
+          {
+            "src": "${content}/shared/global/audio/sfx/rope_slide.mp3"
+          }
+        ]
+      },
+      {
+        "type": "audio",
+        "parts": [
+          {
+            "src": "${content}/shared/global/audio/sfx/popdouble2.mp3"
+          }
+        ]
+      },
+      {
+        "type": "audio",
+        "parts": [
+          {
+            "src": "${content}/shared/global/audio/sfx/shuffle_clink.mp3"
+          }
+        ]
+      }
+    ],
+    "EN" : {
+      "help": [
+        {
+          "type": "audio",
+          "parts": [
+            {
+              "src": "${content}/shared/styles/mc_t22_s1/audio/mc_t22_s1_yoop_da_01.mp3"
+            }
+          ]
+        },
+        {
+          "type": "audio",
+          "parts": [
+            {
+              "src": "${content}/shared/styles/mc_t22_s1/audio/mc_t22_s1_yoop_da_02.mp3"
+            }
+          ]
+        },
+        {
+          "type": "audio",
+          "parts": [
+            {
+              "src": "${content}/shared/styles/mc_t22_s1/audio/mc_t22_s1_yoop_da_03.mp3"
+            }
+          ]
+        },
+        {
+          "type": "audio",
+          "parts": [
+            {
+              "src": "${content}/shared/styles/mc_t22_s1/audio/mc_t22_s1_yoop_da_03.mp3"
+            }
+          ]
+        }
+      ]
+    },
+    "ES" : {
+      "help": [
+        {
+          "type": "audio",
+          "parts": [
+            {
+              "src": "${content}/shared/styles/mc_t22_s1/audio/mc_t22_s1_yoop_da_01_es.mp3"
+            }
+          ]
+        },
+        {
+          "type": "audio",
+          "parts": [
+            {
+              "src": "${content}/shared/styles/mc_t22_s1/audio/mc_t22_s1_yoop_da_02_es.mp3"
+            }
+          ]
+        },
+        {
+          "type": "audio",
+          "parts": [
+            {
+              "src": "${content}/shared/styles/mc_t22_s1/audio/mc_t22_s1_yoop_da_03_es.mp3"
+            }
+          ]
+        }
+      ]
+    },
+    "feedback": {}
+  },
+  "mt_t1_s1": {
+    "id": "mt_t1_s1",
+    "type": "style",
+    "dataCapture": {
+      "enabled": true
+    },
+    "sfx": [
+      {
+        "type": "audio",
+        "parts": [
+          {
+            "src": "${content}/shared/global/audio/500ms_no_sound.mp3"
+          }
+        ]
+      },
+      {
+        "type": "audio",
+        "parts": [
+          {
+            "src": "${content}/shared/global/audio/sfx/popon.mp3"
+          }
+        ]
+      },
+      {
+        "type": "audio",
+        "parts": [
+          {
+            "src": "${content}/shared/global/audio/sfx/plop_1.mp3"
+          }
+        ]
+      },
+      {
+        "type": "audio",
+        "parts": [
+          {
+            "src": "${content}/shared/global/audio/sfx/click.mp3"
+          }
+        ]
+      },
+      {
+        "type": "audio",
+        "parts": [
+          {
+            "src": "${content}/shared/global/audio/sfx/correct_milder.mp3"
+          }
+        ]
+      },
+      {
+        "type": "audio",
+        "parts": [
+          {
+            "src": "${content}/shared/global/audio/sfx/incorrect_milder.mp3"
+          }
+        ]
+      },
+      {
+        "type": "audio",
+        "parts": [
+          {
+            "src": "${content}/shared/global/audio/sfx/reward.mp3"
+          }
+        ]
+      },
+      {
+        "type": "audio",
+        "parts": [
+          {
+            "src": "${content}/shared/global/audio/sfx/reward_2.mp3"
+          }
+        ]
+      },
+      {
+        "type": "audio",
+        "parts": [
+          {
+            "src": "${content}/shared/global/audio/sfx/twinkle_short.mp3"
+          }
+        ]
+      },
+      {
+        "type": "audio",
+        "parts": [
+          {
+            "src": "${content}/shared/global/audio/sfx/rope_slide.mp3"
+          }
+        ]
+      }
+    ],
+    "EN": {
+      "help": [
+        {
+          "type": "audio",
+          "parts": [
+            {
+              "src": "${content}/shared/styles/mt_t1_s1/audio/mt_t1_s1_yoop_da_01.mp3"
+            }
+          ]
+        },
+        {
+          "type": "audio",
+          "parts": [
+            {
+              "src": "${content}/shared/styles/mt_t1_s1/audio/mt_t1_s1_yoop_da_02.mp3"
+            }
+          ]
+        },
+        {
+          "type": "audio",
+          "parts": [
+            {
+              "src": "${content}/shared/styles/mt_t1_s1/audio/mt_t1_s1_yoop_da_03.mp3"
+            }
+          ]
+        }
+      ]
+    },
+    "ES": {
+      "help": [
+        {
+          "type": "audio",
+          "parts": [
+            {
+              "src": "${content}/shared/styles/mt_t1_s1/audio/mt_t1_s1_yoop_da_01_es.mp3"
+            }
+          ]
+        },
+        {
+          "type": "audio",
+          "parts": [
+            {
+              "src": "${content}/shared/styles/mt_t1_s1/audio/mt_t1_s1_yoop_da_02_es.mp3"
+            }
+          ]
+        },
+        {
+          "type": "audio",
+          "parts": [
+            {
+              "src": "${content}/shared/styles/mt_t1_s1/audio/mt_t1_s1_yoop_da_03_es.mp3"
+            }
+          ]
+        }
+      ]
+    },
+
+    "feedback": {}
+  },
+  "rc_ffw_t1_s2": {
+    "id": "rc_ffw_t1_s2",
+    "type": "style",
+    "dataCapture": {
+      "enabled": true
+    },
+    "sfx": [
+      {
+        "type": "audio",
+        "parts": [
+          {
+            "src": "${content}/shared/global/audio/sfx/orb_1.mp3"
+          },
+          {
+            "src": "${content}/shared/global/audio/sfx/orb_2.mp3"
+          },
+          {
+            "src": "${content}/shared/global/audio/sfx/orb_3.mp3"
+          }
+        ]
+      }
+    ],
+    "EN": {
+      "outro": {
+          "closing_audio_3": {
+              "sequence": [
+                  {
+                      "type": "audio",
+                      "parts": [{ "src": "${content}/shared/styles/rc_ffw_t1_s2/audio/closing_au_3.mp3" }]
+                  }
+              ]
+          },
+          "closing_audio_4": {
+              "sequence": [
+                  {
+                      "type": "audio",
+                      "parts": [{ "src": "${content}/shared/styles/rc_ffw_t1_s2/audio/closing_au_4.mp3" }]
+                  }
+              ]
+          },
+          "closing_audio_5": {
+              "sequence": [
+                  {
+                      "type": "audio",
+                      "parts": [{ "src": "${content}/shared/styles/rc_ffw_t1_s2/audio/closing_au_5.mp3" }]
+                  }
+              ]
+          },
+          "closing_audio_6": {
+              "sequence": [
+                  {
+                      "type": "audio",
+                      "parts": [{ "src": "${content}/shared/styles/rc_ffw_t1_s2/audio/closing_au_6.mp3" }]
+                  }
+              ]
+          }
+      }
+    },
+    "ES": {
+      "outro": {
+        "closing_audio_3": {
+            "sequence": [
+                {
+                    "type": "audio",
+                    "parts": [{ "src": "${content}/shared/styles/rc_ffw_t1_s2/audio/closing_au_3_es.mp3" }]
+                }
+            ]
+        },
+        "closing_audio_4": {
+            "sequence": [
+                {
+                    "type": "audio",
+                    "parts": [{ "src": "${content}/shared/styles/rc_ffw_t1_s2/audio/closing_au_4_es.mp3" }]
+                }
+            ]
+        },
+        "closing_audio_5": {
+            "sequence": [
+                {
+                    "type": "audio",
+                    "parts": [{ "src": "${content}/shared/styles/rc_ffw_t1_s2/audio/closing_au_5_es.mp3" }]
+                }
+            ]
+        },
+        "closing_audio_6": {
+            "sequence": [
+                {
+                    "type": "audio",
+                    "parts": [{ "src": "${content}/shared/styles/rc_ffw_t1_s2/audio/closing_au_6_es.mp3" }]
+                }
+            ]
+        }
+      }
+    }
+  },
+  "go_t1_s1": {
+    "id": "go_t1_s1",
+    "type": "style",
+    "dataCapture": {
+      "enabled": true
+    },
+    "sfx": [
+      {
+        "type": "audio",
+        "parts": [
+          {
+            "src": "${content}/shared/global/audio/500ms_no_sound.mp3"
+          }
+        ]
+      },
+      {
+        "type": "audio",
+        "parts": [
+          {
+            "src": "${content}/shared/global/audio/sfx/popon.mp3"
+          }
+        ]
+      },
+      {
+        "type": "audio",
+        "parts": [
+          {
+            "src": "${content}/shared/global/audio/sfx/plop_1.mp3"
+          }
+        ]
+      },
+      {
+        "type": "audio",
+        "parts": [
+          {
+            "src": "${content}/shared/global/audio/sfx/click.mp3"
+          }
+        ]
+      },
+      {
+        "type": "audio",
+        "parts": [
+          {
+            "src": "${content}/shared/global/audio/sfx/correct_milder.mp3"
+          }
+        ]
+      },
+      {
+        "type": "audio",
+        "parts": [
+          {
+            "src": "${content}/shared/global/audio/sfx/incorrect_milder.mp3"
+          }
+        ]
+      },
+      {
+        "type": "audio",
+        "parts": [
+          {
+            "src": "${content}/shared/global/audio/sfx/reward.mp3"
+          }
+        ]
+      },
+      {
+        "type": "audio",
+        "parts": [
+          {
+            "src": "${content}/shared/global/audio/sfx/reward_2.mp3"
+          }
+        ]
+      },
+      {
+        "type": "audio",
+        "parts": [
+          {
+            "src": "${content}/shared/global/audio/sfx/twinkle_short.mp3"
+          }
+        ]
+      },
+      {
+        "type": "audio",
+        "parts": [
+          {
+            "src": "${content}/shared/global/audio/sfx/shrink.mp3"
+          }
+        ]
+      },
+      {
+        "type": "audio",
+        "parts": [
+          {
+            "src": "${content}/shared/global/audio/sfx/go_draweropen.mp3"
+          }
+        ]
+      }
+    ],
+    "EN" : {
+      "help": [
+        {
+          "type": "audio",
+          "parts": [
+            {
+              "src": "${content}/shared/styles/go_t1_s1/audio/go_t1_s1_yoop_da_01.mp3"
+            }
+          ]
+        },
+        {
+          "type": "audio",
+          "parts": [
+            {
+              "src": "${content}/shared/styles/go_t1_s1/audio/go_t1_s1_yoop_da_03.mp3"
+            }
+          ]
+        },
+        {
+          "type": "audio",
+          "parts": [
+            {
+              "src": "${content}/shared/styles/go_t1_s1/audio/go_t1_s1_yoop_da_04.mp3"
+            }
+          ]
+        }
+      ]
+    },
+    "ES" : {
+      "help": [
+        {
+          "type": "audio",
+          "parts": [
+            {
+              "src": "${content}/shared/styles/go_t1_s1/audio/go_t1_s1_yoop_da_01_es.mp3"
+            }
+          ]
+        },
+        {
+          "type": "audio",
+          "parts": [
+            {
+              "src": "${content}/shared/styles/go_t1_s1/audio/go_t1_s1_yoop_da_03_es.mp3"
+            }
+          ]
+        },
+        {
+          "type": "audio",
+          "parts": [
+            {
+              "src": "${content}/shared/styles/go_t1_s1/audio/go_t1_s1_yoop_da_04_es.mp3"
+            }
+          ]
+        }
+      ]
+    },
+    "feedback": {}
+  },
+  "mc_t25_s1": {
+    "id": "mc_t25_s1",
+    "type": "style",
+    "dataCapture": {
+      "enabled": true
+    },
+    "sfx": [
+      {
+        "type": "audio",
+        "parts": [
+          {
+            "src": "${content}/shared/global/audio/500ms_no_sound.mp3"
+          }
+        ]
+      },
+      {
+        "type": "audio",
+        "parts": [
+          {
+            "src": "${content}/shared/global/audio/sfx/click.mp3"
+          }
+        ]
+      },
+      {
+        "type": "audio",
+        "parts": [
+          {
+            "src": "${content}/shared/global/audio/sfx/g3_5_avmodalopen.mp3"
+          }
+        ]
+      },
+      {
+        "type": "audio",
+        "parts": [
+          {
+            "src": "${content}/shared/global/audio/sfx/g3_5_ac_cluecard.mp3"
+          }
+        ]
+      },
+      {
+        "type": "audio",
+        "parts": [
+          {
+            "src": "${content}/shared/global/audio/sfx/g3_5_cluecard_flip.mp3"
+          }
+        ]
+      },
+      {
+        "type": "audio",
+        "parts": [
+          {
+            "src": "${content}/shared/global/audio/sfx/g3_5_inactivetext.mp3"
+          }
+        ]
+      },
+      {
+        "type": "audio",
+        "parts": [
+          {
+            "src": "${content}/shared/global/audio/sfx/g3_5_ac_changefling.mp3"
+          }
+        ]
+      },
+      {
+        "type": "audio",
+        "parts": [
+          {
+            "src": "${content}/shared/global/audio/sfx/g3_5_correct.mp3"
+          }
+        ]
+      },
+      {
+        "type": "audio",
+        "parts": [
+          {
+            "src": "${content}/shared/global/audio/sfx/g3_5_incorrect.mp3"
+          }
+        ]
+      },
+      {
+        "type": "audio",
+        "parts": [
+          {
+            "src": "${content}/shared/global/audio/sfx/chime_mallets.mp3"
+          }
+        ]
+      },
+      {
+        "type": "audio",
+        "parts": [
+          {
+            "src": "${content}/shared/global/audio/sfx/g3_5_slowdown.mp3"
+          }
+        ]
+      },
+      {
+        "type": "audio",
+        "parts": [
+          {
+            "src": "${content}/shared/global/audio/sfx/g3_5_click.mp3"
+          }
+        ]
+      },
+      {
+        "type": "audio",
+        "parts": [
+          {
+            "src": "${content}/shared/global/audio/sfx/g3_5_accolade_1.mp3"
+          }
+        ]
+      },
+      {
+        "type": "audio",
+        "parts": [
+          {
+            "src": "${content}/shared/global/audio/sfx/g3_5_accolade_2.mp3"
+          }
+        ]
+      },
+      {
+        "type": "audio",
+        "parts": [
+          {
+            "src": "${content}/shared/global/audio/sfx/g3_5_accolade_3.mp3"
+          }
+        ]
+      },
+      {
+        "type": "audio",
+        "parts": [
+          {
+            "src": "${content}/shared/global/audio/sfx/g3_5_accolade_4.mp3"
+          }
+        ]
+      },
+      {
+        "type": "audio",
+        "parts": [
+          {
+            "src": "${content}/shared/global/audio/sfx/g3_5_accolade_5.mp3"
+          }
+        ]
+      },
+      {
+        "type": "audio",
+        "parts": [
+          {
+            "src": "${content}/shared/global/audio/sfx/g3_5_subtle_ascending_pops.mp3"
+          }
+        ]
+      },
+      {
+        "type": "audio",
+        "parts": [
+          {
+            "src": "${content}/shared/global/audio/sfx/g3_5_movementonoff_swish02.mp3"
+          }
+        ]
+      },
+      {
+        "type": "audio",
+        "parts": [
+          {
+            "src": "${content}/shared/global/audio/sfx/g3_5_ac_setup_frog.mp3"
+          }
+        ]
+      },
+      {
+        "type": "audio",
+        "parts": [
+          {
+            "src": "${content}/shared/global/audio/sfx/shuffle_clink.mp3"
+          }
+        ]
+      }
+    ],
+    "EN" : {
+      "help": [
+        {
+          "type": "audio",
+          "parts": [
+            {
+              "src": "${content}/shared/styles/mc_t25_s1/audio/mc_t25_s1_da_01.mp3"
+            }
+          ]
+        },
+        {
+          "type": "audio",
+          "parts": [
+            {
+              "src": "${content}/shared/styles/mc_t25_s1/audio/mc_t25_s1_da_02.mp3"
+            }
+          ]
+        }
+      ],
+      "unlocking_cover_help": {
+        "type": "audio",
+        "parts": [
+          {
+            "src": "${content}/shared/styles/rc35_unlocking/unlocking_da_02.mp3"
+          }
+        ]
+      },
+      "unlocking_arrow_help": {
+        "type": "audio",
+        "parts": [
+          {
+            "src": "${content}/shared/styles/rc35_unlocking/unlocking_da_03.mp3"
+          }
+        ]
+      },
+      "unlocking_off_help": {
+        "type": "audio",
+        "parts": [
+          {
+            "src": "${content}/shared/styles/rc35_unlocking/unlocking_off_da_01.mp3"
+          }
+        ]
+      },
+      "ipm_help": {
+        "type": "audio",
+        "parts": [
+          {
+            "src": "${content}/shared/styles/rc35_unlocking/in_psg_maze_da_01.mp3"
+          }
+        ]
+      }
+    },
+    "ES" : {
+      "help": [
+        {
+          "type": "audio",
+          "parts": [
+            {
+              "src": "${content}/shared/styles/mc_t25_s1/audio/mc_t25_s1_da_01_es.mp3"
+            }
+          ]
+        },
+        {
+          "type": "audio",
+          "parts": [
+            {
+              "src": "${content}/shared/styles/mc_t25_s1/audio/mc_t25_s1_da_02_es.mp3"
+            }
+          ]
+        }
+      ],
+      "unlocking_cover_help": {
+        "type": "audio",
+        "parts": [
+          {
+            "src": "${content}/shared/styles/rc35_unlocking/unlocking_da_02_es.mp3"
+          }
+        ]
+      },
+      "unlocking_arrow_help": {
+        "type": "audio",
+        "parts": [
+          {
+            "src": "${content}/shared/styles/rc35_unlocking/unlocking_da_03_es.mp3"
+          }
+        ]
+      },
+      "unlocking_off_help": {
+        "type": "audio",
+        "parts": [
+          {
+            "src": "${content}/shared/styles/rc35_unlocking/unlocking_off_da_01_es.mp3"
+          }
+        ]
+      },
+      "ipm_help": {
+        "type": "audio",
+        "parts": [
+          {
+            "src": "${content}/shared/styles/rc35_unlocking/in_psg_maze_da_01_es.mp3"
+          }
+        ]
+      }
+    },
+    "feedback": {}
+  },
+  "go_t2_s1": {
+    "id": "go_t2_s1",
+    "type": "style",
+    "dataCapture": {
+      "enabled": true
+    },
+    "sfx": [
+      {
+        "type": "audio",
+        "parts": [
+          {
+            "src": "${content}/shared/global/audio/500ms_no_sound.mp3"
+          }
+        ]
+      },
+      {
+        "type": "audio",
+        "parts": [
+          {
+            "src": "${content}/shared/global/audio/sfx/click.mp3"
+          }
+        ]
+      },
+      {
+        "type": "audio",
+        "parts": [
+          {
+            "src": "${content}/shared/global/audio/sfx/g3_5_avmodalopen.mp3"
+          }
+        ]
+      },
+      {
+        "type": "audio",
+        "parts": [
+          {
+            "src": "${content}/shared/global/audio/sfx/g3_5_ac_cluecard.mp3"
+          }
+        ]
+      },
+      {
+        "type": "audio",
+        "parts": [
+          {
+            "src": "${content}/shared/global/audio/sfx/g3_5_cluecard_flip.mp3"
+          }
+        ]
+      },
+      {
+        "type": "audio",
+        "parts": [
+          {
+            "src": "${content}/shared/global/audio/sfx/g3_5_inactivetext.mp3"
+          }
+        ]
+      },
+      {
+        "type": "audio",
+        "parts": [
+          {
+            "src": "${content}/shared/global/audio/sfx/g3_5_ac_changefling.mp3"
+          }
+        ]
+      },
+      {
+        "type": "audio",
+        "parts": [
+          {
+            "src": "${content}/shared/global/audio/sfx/g3_5_correct.mp3"
+          }
+        ]
+      },
+      {
+        "type": "audio",
+        "parts": [
+          {
+            "src": "${content}/shared/global/audio/sfx/g3_5_incorrect.mp3"
+          }
+        ]
+      },
+      {
+        "type": "audio",
+        "parts": [
+          {
+            "src": "${content}/shared/global/audio/sfx/chime_mallets.mp3"
+          }
+        ]
+      },
+      {
+        "type": "audio",
+        "parts": [
+          {
+            "src": "${content}/shared/global/audio/sfx/g3_5_slowdown.mp3"
+          }
+        ]
+      },
+      {
+        "type": "audio",
+        "parts": [
+          {
+            "src": "${content}/shared/global/audio/sfx/g3_5_click.mp3"
+          }
+        ]
+      },
+      {
+        "type": "audio",
+        "parts": [
+          {
+            "src": "${content}/shared/global/audio/sfx/g3_5_accolade_1.mp3"
+          }
+        ]
+      },
+      {
+        "type": "audio",
+        "parts": [
+          {
+            "src": "${content}/shared/global/audio/sfx/g3_5_accolade_2.mp3"
+          }
+        ]
+      },
+      {
+        "type": "audio",
+        "parts": [
+          {
+            "src": "${content}/shared/global/audio/sfx/g3_5_accolade_3.mp3"
+          }
+        ]
+      },
+      {
+        "type": "audio",
+        "parts": [
+          {
+            "src": "${content}/shared/global/audio/sfx/g3_5_accolade_4.mp3"
+          }
+        ]
+      },
+      {
+        "type": "audio",
+        "parts": [
+          {
+            "src": "${content}/shared/global/audio/sfx/g3_5_accolade_5.mp3"
+          }
+        ]
+      },
+      {
+        "type": "audio",
+        "parts": [
+          {
+            "src": "${content}/shared/global/audio/sfx/g3_5_subtle_ascending_pops.mp3"
+          }
+        ]
+      },
+      {
+        "type": "audio",
+        "parts": [
+          {
+            "src": "${content}/shared/global/audio/sfx/go_draweropen.mp3"
+          }
+        ]
+      },
+      {
+        "type": "audio",
+        "parts": [
+          {
+            "src": "${content}/shared/global/audio/sfx/rope_slide.mp3"
+          }
+        ]
+      },
+      {
+        "type": "audio",
+        "parts": [
+          {
+            "src": "${content}/shared/global/audio/sfx/g3_5_equation_appear.mp3"
+          }
+        ]
+      },
+      {
+        "type": "audio",
+        "parts": [
+          {
+            "src": "${content}/shared/global/audio/sfx/g3_5_acswap.mp3"
+          }
+        ]
+      },
+      {
+        "type": "audio",
+        "parts": [
+          {
+            "src": "${content}/shared/global/audio/sfx/g3_5_pop_on.mp3"
+          }
+        ]
+      }
+    ],
+    "EN" : {
+      "help": [
+        {
+          "type": "audio",
+          "parts": [
+            {
+              "src": "${content}/shared/styles/go_t2_s1/audio/go_t2_s1_mc_da_01.mp3"
+            }
+          ]
+        },
+        {
+          "type": "audio",
+          "parts": [
+            {
+              "src": "${content}/shared/styles/go_t2_s1/audio/go_t2_s1_mc_da_02.mp3"
+            }
+          ]
+        },
+        {
+          "type": "audio",
+          "parts": [
+            {
+              "src": "${content}/shared/styles/go_t2_s1/audio/go_t2_s1_mc_da_03.mp3"
+            }
+          ]
+        },
+        {
+          "type": "audio",
+          "parts": [
+            {
+              "src": "${content}/shared/styles/go_t2_s1/audio/go_t2_s1_dd_da_01.mp3"
+            }
+          ]
+        },
+        {
+          "type": "audio",
+          "parts": [
+            {
+              "src": "${content}/shared/styles/go_t2_s1/audio/go_t2_s1_dd_da_02.mp3"
+            }
+          ]
+        },
+        {
+          "type": "audio",
+          "parts": [
+            {
+              "src": "${content}/shared/styles/go_t2_s1/audio/go_t2_s1_dd_da_03.mp3"
+            }
+          ]
+        }
+      ],
+      "unlocking_cover_help": {
+        "type": "audio",
+        "parts": [
+          {
+            "src": "${content}/shared/styles/rc35_unlocking/unlocking_da_02.mp3"
+          }
+        ]
+      },
+      "unlocking_arrow_help": {
+        "type": "audio",
+        "parts": [
+          {
+            "src": "${content}/shared/styles/rc35_unlocking/unlocking_da_03.mp3"
+          }
+        ]
+      },
+      "unlocking_off_help": {
+        "type": "audio",
+        "parts": [
+          {
+            "src": "${content}/shared/styles/rc35_unlocking/unlocking_off_da_01.mp3"
+          }
+        ]
+      },
+      "ipm_help": {
+        "type": "audio",
+        "parts": [
+          {
+            "src": "${content}/shared/styles/rc35_unlocking/in_psg_maze_da_01.mp3"
+          }
+        ]
+      }
+    },
+    "ES" : {
+      "help": [
+        {
+          "type": "audio",
+          "parts": [
+            {
+              "src": "${content}/shared/styles/go_t2_s1/audio/go_t2_s1_mc_da_01_es.mp3"
+            }
+          ]
+        },
+        {
+          "type": "audio",
+          "parts": [
+            {
+              "src": "${content}/shared/styles/go_t2_s1/audio/go_t2_s1_mc_da_02_es.mp3"
+            }
+          ]
+        },
+        {
+          "type": "audio",
+          "parts": [
+            {
+              "src": "${content}/shared/styles/go_t2_s1/audio/go_t2_s1_mc_da_03_es.mp3"
+            }
+          ]
+        },
+        {
+          "type": "audio",
+          "parts": [
+            {
+              "src": "${content}/shared/styles/go_t2_s1/audio/go_t2_s1_dd_da_01_es.mp3"
+            }
+          ]
+        },
+        {
+          "type": "audio",
+          "parts": [
+            {
+              "src": "${content}/shared/styles/go_t2_s1/audio/go_t2_s1_dd_da_02_es.mp3"
+            }
+          ]
+        },
+        {
+          "type": "audio",
+          "parts": [
+            {
+              "src": "${content}/shared/styles/go_t2_s1/audio/go_t2_s1_dd_da_03_es.mp3"
+            }
+          ]
+        }
+      ],
+      "unlocking_cover_help": {
+        "type": "audio",
+        "parts": [
+          {
+            "src": "${content}/shared/styles/rc35_unlocking/unlocking_da_02_es.mp3"
+          }
+        ]
+      },
+      "unlocking_arrow_help": {
+        "type": "audio",
+        "parts": [
+          {
+            "src": "${content}/shared/styles/rc35_unlocking/unlocking_da_03_es.mp3"
+          }
+        ]
+      },
+      "unlocking_off_help": {
+        "type": "audio",
+        "parts": [
+          {
+            "src": "${content}/shared/styles/rc35_unlocking/unlocking_off_da_01_es.mp3"
+          }
+        ]
+      },
+      "ipm_help": {
+        "type": "audio",
+        "parts": [
+          {
+            "src": "${content}/shared/styles/rc35_unlocking/in_psg_maze_da_01_es.mp3"
+          }
+        ]
+      }
+    },
+    "feedback": {}
+  },
+  "mt_t2_s1": {
+    "id": "mt_t2_s1",
+    "type": "style",
+    "dataCapture": {
+      "enabled": true
+    },
+    "sfx": [
+      {
+        "type": "audio",
+        "parts": [
+          {
+            "src": "${content}/shared/global/audio/500ms_no_sound.mp3"
+          }
+        ]
+      },
+      {
+        "type": "audio",
+        "parts": [
+          {
+            "src": "${content}/shared/global/audio/sfx/click.mp3"
+          }
+        ]
+      },
+      {
+        "type": "audio",
+        "parts": [
+          {
+            "src": "${content}/shared/global/audio/sfx/g3_5_avmodalopen.mp3"
+          }
+        ]
+      },
+      {
+        "type": "audio",
+        "parts": [
+          {
+            "src": "${content}/shared/global/audio/sfx/g3_5_ac_cluecard.mp3"
+          }
+        ]
+      },
+      {
+        "type": "audio",
+        "parts": [
+          {
+            "src": "${content}/shared/global/audio/sfx/g3_5_cluecard_flip.mp3"
+          }
+        ]
+      },
+      {
+        "type": "audio",
+        "parts": [
+          {
+            "src": "${content}/shared/global/audio/sfx/g3_5_inactivetext.mp3"
+          }
+        ]
+      },
+      {
+        "type": "audio",
+        "parts": [
+          {
+            "src": "${content}/shared/global/audio/sfx/g3_5_ac_changefling.mp3"
+          }
+        ]
+      },
+      {
+        "type": "audio",
+        "parts": [
+          {
+            "src": "${content}/shared/global/audio/sfx/g3_5_correct.mp3"
+          }
+        ]
+      },
+      {
+        "type": "audio",
+        "parts": [
+          {
+            "src": "${content}/shared/global/audio/sfx/g3_5_incorrect.mp3"
+          }
+        ]
+      },
+      {
+        "type": "audio",
+        "parts": [
+          {
+            "src": "${content}/shared/global/audio/sfx/chime_mallets.mp3"
+          }
+        ]
+      },
+      {
+        "type": "audio",
+        "parts": [
+          {
+            "src": "${content}/shared/global/audio/sfx/g3_5_slowdown.mp3"
+          }
+        ]
+      },
+      {
+        "type": "audio",
+        "parts": [
+          {
+            "src": "${content}/shared/global/audio/sfx/g3_5_click.mp3"
+          }
+        ]
+      },
+      {
+        "type": "audio",
+        "parts": [
+          {
+            "src": "${content}/shared/global/audio/sfx/g3_5_accolade_1.mp3"
+          }
+        ]
+      },
+      {
+        "type": "audio",
+        "parts": [
+          {
+            "src": "${content}/shared/global/audio/sfx/g3_5_accolade_2.mp3"
+          }
+        ]
+      },
+      {
+        "type": "audio",
+        "parts": [
+          {
+            "src": "${content}/shared/global/audio/sfx/g3_5_accolade_3.mp3"
+          }
+        ]
+      },
+      {
+        "type": "audio",
+        "parts": [
+          {
+            "src": "${content}/shared/global/audio/sfx/g3_5_accolade_4.mp3"
+          }
+        ]
+      },
+      {
+        "type": "audio",
+        "parts": [
+          {
+            "src": "${content}/shared/global/audio/sfx/g3_5_accolade_5.mp3"
+          }
+        ]
+      },
+      {
+        "type": "audio",
+        "parts": [
+          {
+            "src": "${content}/shared/global/audio/sfx/g3_5_subtle_ascending_pops.mp3"
+          }
+        ]
+      },
+      {
+        "type": "audio",
+        "parts": [
+          {
+            "src": "${content}/shared/global/audio/sfx/g3_5_maze_drop_open.mp3"
+          }
+        ]
+      },
+      {
+        "type": "audio",
+        "parts": [
+          {
+            "src": "${content}/shared/global/audio/sfx/g3_5_movementonoff_swish01.mp3"
+          }
+        ]
+      },
+      {
+        "type": "audio",
+        "parts": [
+          {
+            "src": "${content}/shared/global/audio/sfx/g3_5_movementonoff_swish02.mp3"
+          }
+        ]
+      }
+    ],
+    "EN" : {
+      "help": [
+        {
+          "type": "audio",
+          "parts": [
+            {
+              "src": "${content}/shared/styles/mt_t2_s1/audio/mt_t2_s1_da_01.mp3"
+            }
+          ]
+        },
+        {
+          "type": "audio",
+          "parts": [
+            {
+              "src": "${content}/shared/styles/mt_t2_s1/audio/mt_t2_s1_da_02.mp3"
+            }
+          ]
+        },
+        {
+          "type": "audio",
+          "parts": [
+            {
+              "src": "${content}/shared/styles/mt_t2_s1/audio/mt_t2_s1_da_03.mp3"
+            }
+          ]
+        }
+      ],
+      "unlocking_cover_help": {
+        "type": "audio",
+        "parts": [
+          {
+            "src": "${content}/shared/styles/rc35_unlocking/unlocking_da_02.mp3"
+          }
+        ]
+      },
+      "unlocking_arrow_help": {
+        "type": "audio",
+        "parts": [
+          {
+            "src": "${content}/shared/styles/rc35_unlocking/unlocking_da_03.mp3"
+          }
+        ]
+      },
+      "unlocking_off_help": {
+        "type": "audio",
+        "parts": [
+          {
+            "src": "${content}/shared/styles/rc35_unlocking/unlocking_off_da_01.mp3"
+          }
+        ]
+      },
+      "ipm_help": {
+        "type": "audio",
+        "parts": [
+          {
+            "src": "${content}/shared/styles/rc35_unlocking/in_psg_maze_da_01.mp3"
+          }
+        ]
+      }
+    },
+    "ES" : {
+      "help": [
+        {
+          "type": "audio",
+          "parts": [
+            {
+              "src": "${content}/shared/styles/mt_t2_s1/audio/mt_t2_s1_da_01_es.mp3"
+            }
+          ]
+        },
+        {
+          "type": "audio",
+          "parts": [
+            {
+              "src": "${content}/shared/styles/mt_t2_s1/audio/mt_t2_s1_da_02_es.mp3"
+            }
+          ]
+        },
+        {
+          "type": "audio",
+          "parts": [
+            {
+              "src": "${content}/shared/styles/mt_t2_s1/audio/mt_t2_s1_da_03_es.mp3"
+            }
+          ]
+        }
+      ],
+      "unlocking_cover_help": {
+        "type": "audio",
+        "parts": [
+          {
+            "src": "${content}/shared/styles/rc35_unlocking/unlocking_da_02_es.mp3"
+          }
+        ]
+      },
+      "unlocking_arrow_help": {
+        "type": "audio",
+        "parts": [
+          {
+            "src": "${content}/shared/styles/rc35_unlocking/unlocking_da_03_es.mp3"
+          }
+        ]
+      },
+      "unlocking_off_help": {
+        "type": "audio",
+        "parts": [
+          {
+            "src": "${content}/shared/styles/rc35_unlocking/unlocking_off_da_01_es.mp3"
+          }
+        ]
+      },
+      "ipm_help": {
+        "type": "audio",
+        "parts": [
+          {
+            "src": "${content}/shared/styles/rc35_unlocking/in_psg_maze_da_01_es.mp3"
+          }
+        ]
+      }
+    },
+    "feedback": {}
+  },
+  "tp_t1_s1": {
+    "id": "tp_t1_s1",
+    "type": "style",
+    "dataCapture": {
+      "enabled": true
+    },
+    "sfx": [],
+    "help": [
+      {
+        "type": "audio",
+        "parts": [
+          {
+            "src": "${content}/shared/styles/tp_t1_s1/audio/da_01.mp3"
+          }
+        ]
+      },
+      {
+        "type": "audio",
+        "parts": [
+          {
+            "src": "${content}/shared/styles/tp_t1_s1/audio/da_02.mp3"
+          }
+        ]
+      },
+      {
+        "type": "audio",
+        "parts": [
+          {
+            "src": "${content}/shared/styles/tp_t1_s1/audio/da_03.mp3"
+          }
+        ]
+      },
+      {
+        "type": "audio",
+        "parts": [
+          {
+            "src": "${content}/shared/styles/tp_t1_s1/audio/da_04.mp3"
+          }
+        ]
+      },
+      {
+        "type": "audio",
+        "parts": [
+          {
+            "src": "${content}/shared/styles/tp_t1_s1/audio/da_05.mp3"
+          }
+        ]
+      },
+      {
+        "type": "audio",
+        "parts": [
+          {
+            "src": "${content}/shared/styles/tp_t1_s1/audio/da_06.mp3"
+          }
+        ]
+      },
+      {
+        "type": "audio",
+        "parts": [
+          {
+            "src": "${content}/shared/styles/tp_t1_s1/audio/da_07.mp3"
+          }
+        ]
+      },
+      {
+        "type": "audio",
+        "parts": [
+          {
+            "src": "${content}/shared/styles/tp_t1_s1/audio/da_08.mp3"
+          }
+        ]
+      }
+    ],
+    "EN" : {
+      "unlocking_cover_help": {
+        "type": "audio",
+        "parts": [
+          {
+            "src": "${content}/shared/styles/rc35_unlocking/unlocking_da_02.mp3"
+          }
+        ]
+      },
+      "unlocking_arrow_help": {
+        "type": "audio",
+        "parts": [
+          {
+            "src": "${content}/shared/styles/rc35_unlocking/unlocking_da_03.mp3"
+          }
+        ]
+      },
+      "unlocking_off_help": {
+        "type": "audio",
+        "parts": [
+          {
+            "src": "${content}/shared/styles/rc35_unlocking/unlocking_off_da_01.mp3"
+          }
+        ]
+      },
+      "ipm_help": {
+        "type": "audio",
+        "parts": [
+          {
+            "src": "${content}/shared/styles/rc35_unlocking/in_psg_maze_da_01.mp3"
+          }
+        ]
+      }
+    },
+    "ES" : {
+      "unlocking_cover_help": {
+        "type": "audio",
+        "parts": [
+          {
+            "src": "${content}/shared/styles/rc35_unlocking/unlocking_da_02_es.mp3"
+          }
+        ]
+      },
+      "unlocking_arrow_help": {
+        "type": "audio",
+        "parts": [
+          {
+            "src": "${content}/shared/styles/rc35_unlocking/unlocking_da_03_es.mp3"
+          }
+        ]
+      },
+      "unlocking_off_help": {
+        "type": "audio",
+        "parts": [
+          {
+            "src": "${content}/shared/styles/rc35_unlocking/unlocking_off_da_01_es.mp3"
+          }
+        ]
+      },
+      "ipm_help": {
+        "type": "audio",
+        "parts": [
+          {
+            "src": "${content}/shared/styles/rc35_unlocking/in_psg_maze_da_01_es.mp3"
+          }
+        ]
+      }
+    },
+    "feedback": {}
+  },
+  "sm_t1_s1": {
+    "id": "sm_t1_s1",
+    "type": "style",
+    "dataCapture": {
+      "enabled": true
+    },
+    "sfx": [
+      {
+        "type": "audio",
+        "parts": [
+          {
+            "src": "${content}/shared/global/audio/500ms_no_sound.mp3"
+          }
+        ]
+      },
+      {
+        "type": "audio",
+        "parts": [
+          {
+            "src": "${content}/shared/global/audio/sfx/click.mp3"
+          }
+        ]
+      },
+      {
+        "type": "audio",
+        "parts": [
+          {
+            "src": "${content}/shared/global/audio/sfx/g3_5_avmodalopen.mp3"
+          }
+        ]
+      },
+      {
+        "type": "audio",
+        "parts": [
+          {
+            "src": "${content}/shared/global/audio/sfx/g3_5_ac_cluecard.mp3"
+          }
+        ]
+      },
+      {
+        "type": "audio",
+        "parts": [
+          {
+            "src": "${content}/shared/global/audio/sfx/g3_5_cluecard_flip.mp3"
+          }
+        ]
+      },
+      {
+        "type": "audio",
+        "parts": [
+          {
+            "src": "${content}/shared/global/audio/sfx/g3_5_inactivetext.mp3"
+          }
+        ]
+      },
+      {
+        "type": "audio",
+        "parts": [
+          {
+            "src": "${content}/shared/global/audio/sfx/g3_5_ac_changefling.mp3"
+          }
+        ]
+      },
+      {
+        "type": "audio",
+        "parts": [
+          {
+            "src": "${content}/shared/global/audio/sfx/g3_5_correct.mp3"
+          }
+        ]
+      },
+      {
+        "type": "audio",
+        "parts": [
+          {
+            "src": "${content}/shared/global/audio/sfx/g3_5_incorrect.mp3"
+          }
+        ]
+      },
+      {
+        "type": "audio",
+        "parts": [
+          {
+            "src": "${content}/shared/global/audio/sfx/chime_mallets.mp3"
+          }
+        ]
+      },
+      {
+        "type": "audio",
+        "parts": [
+          {
+            "src": "${content}/shared/global/audio/sfx/g3_5_slowdown.mp3"
+          }
+        ]
+      },
+      {
+        "type": "audio",
+        "parts": [
+          {
+            "src": "${content}/shared/global/audio/sfx/g3_5_click.mp3"
+          }
+        ]
+      },
+      {
+        "type": "audio",
+        "parts": [
+          {
+            "src": "${content}/shared/global/audio/sfx/g3_5_accolade_1.mp3"
+          }
+        ]
+      },
+      {
+        "type": "audio",
+        "parts": [
+          {
+            "src": "${content}/shared/global/audio/sfx/g3_5_accolade_2.mp3"
+          }
+        ]
+      },
+      {
+        "type": "audio",
+        "parts": [
+          {
+            "src": "${content}/shared/global/audio/sfx/g3_5_accolade_3.mp3"
+          }
+        ]
+      },
+      {
+        "type": "audio",
+        "parts": [
+          {
+            "src": "${content}/shared/global/audio/sfx/g3_5_accolade_4.mp3"
+          }
+        ]
+      },
+      {
+        "type": "audio",
+        "parts": [
+          {
+            "src": "${content}/shared/global/audio/sfx/g3_5_accolade_5.mp3"
+          }
+        ]
+      },
+      {
+        "type": "audio",
+        "parts": [
+          {
+            "src": "${content}/shared/global/audio/sfx/g3_5_subtle_ascending_pops.mp3"
+          }
+        ]
+      },
+      {
+        "type": "audio",
+        "parts": [
+          {
+            "src": "${content}/shared/global/audio/sfx/go_draweropen.mp3"
+          }
+        ]
+      },
+      {
+        "type": "audio",
+        "parts": [
+          {
+            "src": "${content}/shared/global/audio/sfx/rope_slide.mp3"
+          }
+        ]
+      },
+      {
+        "type": "audio",
+        "parts": [
+          {
+            "src": "${content}/shared/global/audio/sfx/g3_5_equation_appear.mp3"
+          }
+        ]
+      },
+      {
+        "type": "audio",
+        "parts": [
+          {
+            "src": "${content}/shared/global/audio/sfx/g3_5_acswap.mp3"
+          }
+        ]
+      },
+      {
+        "type": "audio",
+        "parts": [
+          {
+            "src": "${content}/shared/global/audio/sfx/g3_5_pop_on.mp3"
+          }
+        ]
+      }
+    ],
+    "help": [
+      {
+        "type": "audio",
+        "parts": [
+          {
+            "src": "${content}/shared/styles/sm_t1_s1/audio/da_01.mp3"
+          }
+        ]
+      },
+      {
+        "type": "audio",
+        "parts": [
+          {
+            "src": "${content}/shared/styles/sm_t1_s1/audio/da_02.mp3"
+          }
+        ]
+      },
+      {
+        "type": "audio",
+        "parts": [
+          {
+            "src": "${content}/shared/styles/sm_t1_s1/audio/da_03.mp3"
+          }
+        ]
+      },
+      {
+        "type": "audio",
+        "parts": [
+          {
+            "src": "${content}/shared/styles/sm_t1_s1/audio/da_04.mp3"
+          }
+        ]
+      },
+      {
+        "type": "audio",
+        "parts": [
+          {
+            "src": "${content}/shared/styles/sm_t1_s1/audio/da_05.mp3"
+          }
+        ]
+      },
+      {
+        "type": "audio",
+        "parts": [
+          {
+            "src": "${content}/shared/styles/sm_t1_s1/audio/da_06.mp3"
+          }
+        ]
+      },
+      {
+        "type": "audio",
+        "parts": [
+          {
+            "src": "${content}/shared/styles/sm_t1_s1/audio/da_07.mp3"
+          }
+        ]
+      }
+    ],
+    "EN" : {
+      "unlocking_cover_help": {
+        "type": "audio",
+        "parts": [
+          {
+            "src": "${content}/shared/styles/rc35_unlocking/unlocking_da_02.mp3"
+          }
+        ]
+      },
+      "unlocking_arrow_help": {
+        "type": "audio",
+        "parts": [
+          {
+            "src": "${content}/shared/styles/rc35_unlocking/unlocking_da_03.mp3"
+          }
+        ]
+      },
+      "unlocking_off_help": {
+        "type": "audio",
+        "parts": [
+          {
+            "src": "${content}/shared/styles/rc35_unlocking/unlocking_off_da_01.mp3"
+          }
+        ]
+      },
+      "ipm_help": {
+        "type": "audio",
+        "parts": [
+          {
+            "src": "${content}/shared/styles/rc35_unlocking/in_psg_maze_da_01.mp3"
+          }
+        ]
+      }
+    },
+    "ES" : {
+      "unlocking_cover_help": {
+        "type": "audio",
+        "parts": [
+          {
+            "src": "${content}/shared/styles/rc35_unlocking/unlocking_da_02_es.mp3"
+          }
+        ]
+      },
+      "unlocking_arrow_help": {
+        "type": "audio",
+        "parts": [
+          {
+            "src": "${content}/shared/styles/rc35_unlocking/unlocking_da_03_es.mp3"
+          }
+        ]
+      },
+      "unlocking_off_help": {
+        "type": "audio",
+        "parts": [
+          {
+            "src": "${content}/shared/styles/rc35_unlocking/unlocking_off_da_01_es.mp3"
+          }
+        ]
+      },
+      "ipm_help": {
+        "type": "audio",
+        "parts": [
+          {
+            "src": "${content}/shared/styles/rc35_unlocking/in_psg_maze_da_01_es.mp3"
+          }
+        ]
+      }
+    },
+    "feedback": {}
+  },
+  "go_t5_s1": {
+    "id": "go_t5_s1",
+    "type": "style",
+    "dataCapture": {
+      "enabled": true
+    },
+    "sfx": [],
+    "help": [
+      {
+        "type": "audio",
+        "parts": [
+          {
+            "src": "${content}/shared/styles/go_t5_s1/audio/da_01.mp3"
+          }
+        ]
+      },
+      {
+        "type": "audio",
+        "parts": [
+          {
+            "src": "${content}/shared/styles/go_t5_s1/audio/da_02.mp3"
+          }
+        ]
+      },
+      {
+        "type": "audio",
+        "parts": [
+          {
+            "src": "${content}/shared/styles/go_t5_s1/audio/da_03.mp3"
+          }
+        ]
+      },
+      {
+        "type": "audio",
+        "parts": [
+          {
+            "src": "${content}/shared/styles/go_t5_s1/audio/da_04.mp3"
+          }
+        ]
+      },
+      {
+        "type": "audio",
+        "parts": [
+          {
+            "src": "${content}/shared/styles/go_t5_s1/audio/da_05.mp3"
+          }
+        ]
+      },
+      {
+        "type": "audio",
+        "parts": [
+          {
+            "src": "${content}/shared/styles/go_t5_s1/audio/da_06.mp3"
+          }
+        ]
+      }
+    ],
+    "EN" : {
+      "unlocking_cover_help": {
+        "type": "audio",
+        "parts": [
+          {
+            "src": "${content}/shared/styles/rc35_unlocking/unlocking_da_02.mp3"
+          }
+        ]
+      },
+      "unlocking_arrow_help": {
+        "type": "audio",
+        "parts": [
+          {
+            "src": "${content}/shared/styles/rc35_unlocking/unlocking_da_03.mp3"
+          }
+        ]
+      },
+      "unlocking_off_help": {
+        "type": "audio",
+        "parts": [
+          {
+            "src": "${content}/shared/styles/rc35_unlocking/unlocking_off_da_01.mp3"
+          }
+        ]
+      },
+      "ipm_help": {
+        "type": "audio",
+        "parts": [
+          {
+            "src": "${content}/shared/styles/rc35_unlocking/in_psg_maze_da_01.mp3"
+          }
+        ]
+      }
+    },
+    "ES" : {
+      "unlocking_cover_help": {
+        "type": "audio",
+        "parts": [
+          {
+            "src": "${content}/shared/styles/rc35_unlocking/unlocking_da_02_es.mp3"
+          }
+        ]
+      },
+      "unlocking_arrow_help": {
+        "type": "audio",
+        "parts": [
+          {
+            "src": "${content}/shared/styles/rc35_unlocking/unlocking_da_03_es.mp3"
+          }
+        ]
+      },
+      "unlocking_off_help": {
+        "type": "audio",
+        "parts": [
+          {
+            "src": "${content}/shared/styles/rc35_unlocking/unlocking_off_da_01_es.mp3"
+          }
+        ]
+      },
+      "ipm_help": {
+        "type": "audio",
+        "parts": [
+          {
+            "src": "${content}/shared/styles/rc35_unlocking/in_psg_maze_da_01_es.mp3"
+          }
+        ]
+      }
+    },
+    "feedback": {}
+  },
+  "sr_t1_s1": {
+    "id": "sr_t1_s1",
+    "type": "style",
+    "dataCapture": {
+      "enabled": true
+    },
+    "properties": {
+      "saveIntermediateState": true
+    },
+    "sfx": [
+      {
+        "type": "audio",
+        "parts": [
+          {
+            "src": "${content}/shared/global/audio/sfx/click.mp3"
+          }
+        ]
+      },
+      {
+        "type": "audio",
+        "parts": [
+          {
+            "src": "${content}/shared/global/audio/sfx/g3_5_correct.mp3"
+          }
+        ]
+      }
+    ],
+    "help": {
+      "type": "audio",
+      "parts": [
+        {
+          "src": "${content}/shared/styles/sr_t1_s1/sr_01.mp3"
+        }
+      ]
+    }
+  },
+  "passage_t1_s1": {
+    "id": "passage_t1_s1",
+    "type": "style",
+    "feedback": {}
+  },
+  "av_t1_s1": {
+    "id": "av_t1_s1",
+    "type": "style",
+    "feedback": {
+    }
+  }
+}
