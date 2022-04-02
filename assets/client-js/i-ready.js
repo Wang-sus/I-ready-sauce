@@ -42,7 +42,7 @@ function doBrowserCheck(_0x46d681) {
     return fetch(_0x46d681, {
         'method': _0x1760bc(375),
         'headers': {
-            'Content-Type': _0x1760bc(366)
+            'Content-Type: application/javascript'
         }
     })[_0x1760bc(349)](function (_0x14fd7f) {
         var _0x2dccb8 = _0x1760bc;
