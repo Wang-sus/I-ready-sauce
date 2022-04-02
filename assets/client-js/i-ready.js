@@ -126,8 +126,8 @@ function addCheckIreadyIds() {
     !document[_0x2f478a(380)] ? setInterval('checkIReadyIds()', 400) : setTimeout('addCheckIreadyIds()', 150);
 }
 var loginCheckEnabled = true,
-    allowMultipleLandingPages = false,
+    allowMultipleLandingPages = true,
     loginId = getCookie('iready_login_id'),
-    landingPage = false,
+    landingPage = true,
     created = null;
 addCheckIreadyIds();
