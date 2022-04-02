@@ -12,9 +12,7 @@ var _0x4cbe7c = _0x218b;
         }
     }
 }(_0x10ad, 835239));
-var arrDomain = location[_0x4cbe7c(395)][_0x4cbe7c(383)]('.');
-if (arrDomain[_0x4cbe7c(385)] > 2) arrDomain[_0x4cbe7c(355)]();
-document.domain = arrDomain[_0x4cbe7c(396)]('.');
+
 
 function _0x218b(_0x25166e, _0x3b3763) {
     var _0x10ad17 = _0x10ad();
